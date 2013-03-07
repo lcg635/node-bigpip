@@ -2,8 +2,8 @@ var util = require('util');
 var async = require('async');
 var U = require('./U');
 
-function BigPip (res, mainTpl, locals) {
-  this.res = res;
+function BigPip (res) {
+	this.res = res;
 	this.sectionCbs = [];
 }
 
